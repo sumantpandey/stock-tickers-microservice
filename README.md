@@ -22,3 +22,10 @@ API
 1- http://localhost:8080/stocks/tickerName
 e,g http:localhost:8080/stocks/GOOG  (to get stocks from google)
 
+2- http://localhost:8080/stocks/findAll
+e,g method POST
+request body is ["GOOG","MOS"]
+
+3 @GetMapping("stocks/price/{ticker}") 
+http://localhost:8080/stocks/price/GOOG
+
