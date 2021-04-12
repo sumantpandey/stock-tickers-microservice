@@ -19,6 +19,6 @@ or
 2-run the DemoApplication class in editor
 
 API
-1- http://localhost:8080/tickerName
-e,g http:localhost:8080/GOOG  (to get stocks from google)
+1- http://localhost:8080/stocks/tickerName
+e,g http:localhost:8080/stocks/GOOG  (to get stocks from google)
 
