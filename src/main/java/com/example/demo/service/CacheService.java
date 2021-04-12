@@ -16,7 +16,7 @@ public class CacheService {
 
     public static final Map<String, StockWrapper> stockesToKeep = new ConcurrentHashMap<>();
     private static final ScheduledExecutorService scheduler = Executors.newScheduledThreadPool(1);
-    private static final Duration interval = Duration.ofSeconds(15);
+    private static final Duration interval = Duration.ofMinutes(15);
 
     public CacheService()
     {
